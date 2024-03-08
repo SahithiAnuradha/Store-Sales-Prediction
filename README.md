@@ -6,9 +6,9 @@
 Market Basket Analysis for Instacart aims to enhance the online grocery shopping experience by applying machine learning models to recommend products based on customer's shopping habits. The project leverages the Instacart dataset to identify patterns and recommend products that are likely to be bought together or in subsequent orders.
 
 ## Authors
+- Anuradha Sahithi Padavala 
 - Valipe Soundarya Lahari
 - Venkata Ramana Rohith Neralla
-- Anuradha Sahithi Padavala 
 - Naga Govardhan Munagala 
 - College of Engineering and Computer Science University of Central Florida, Orlando, Florida – 32816 
 
