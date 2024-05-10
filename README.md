@@ -1,9 +1,10 @@
 
-# Market Basket Analysis: Instacart
+# Store Sales Prediction:WALMART
 
 ## Overview
 
-Market Basket Analysis for Instacart aims to enhance the online grocery shopping experience by applying machine learning models to recommend products based on customer's shopping habits. The project leverages the Instacart dataset to identify patterns and recommend products that are likely to be bought together or in subsequent orders.
+The sales forecast is a projected measure of how a market will respond to a company’s go-to-market efforts. Walmart is one of the largest retail and wholesale businesses in the world, and they should have accurate forecasts for their sales in various departments. In this project, we experimented with different machine-learning models with the dataset provided by Kaggle for the “Walmart Recruiting - Store Sales Forecasting” competition. Our findings indicate
+that Random Forest and the Extra Trees models are the most promising techniques for this problem.
 
 ## Authors
 - Anuradha Sahithi Padavala 
@@ -52,53 +53,4 @@ The dataset is anonymized and contains sample orders from Instacart users over t
 
 ## Acknowledgments
 
-This project was a collaborative effort by Sai Kiran Bellamkonda, Balaganesan Kumaran, and Vaishnavi Mandula, leveraging public datasets for educational and research purposes.
-
----
-
-# Walmart Sales Forecasting Project
-
-## Overview
-
-The Walmart project focuses on predicting weekly sales using historical data. The project utilizes machine learning models to forecast sales based on factors like store features, promotional information, and economic indicators.
-
-## Installation
-
-### Prerequisites
-
-- Python 3.x
-- Jupyter Notebook or JupyterLab
-
-### Libraries
-
-Required Python packages:
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost catboost lightgbm
-```
-
-## Dataset
-
-The dataset includes weekly sales data from Walmart stores, featuring:
-
-- Sales
-- Store information
-- Promotional data
-- Economic features
-
-## Usage
-
-1. Download or clone the repository containing the project code and datasets.
-2. Ensure all necessary Python libraries are installed.
-3. Load the Jupyter Notebook (`walmart_project_final_code (2).ipynb`) and execute the cells in order to train models and make predictions on weekly sales.
-
-## Key Components
-
-- **Data Loading**: Importing datasets for training and testing.
-- **Data Preprocessing**: Merging store information with features and sales data.
-- **Feature Engineering**: Extracting and selecting relevant features for the models.
-- **Model Training**: Applying models such as XGBoost, LightGBM, and CatBoost for sales prediction.
-
-## Acknowledgments
-
-The Walmart sales forecasting project utilizes publicly available data for the purpose of educational and research exploration.
+This project was a collaborative effort by Anuradha Sahithi Padavala, Valipe Soundarya Lahari, Venkata Ramana Rohith Neralla, Naga Govardhan Munagala, leveraging public datasets for educational and research purposes.
