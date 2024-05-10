@@ -30,12 +30,28 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost catboost
 
 ## Dataset
 
-The dataset is anonymized and contains sample orders from Instacart users over time, including product orders, departments, and aisles information. It features:
+The dataset contains historical sales data for 45 Walmart stores and the stores located in different regions throughout the country for the years 2010 - 2012.
 
-- Orders
-- Products
-- Aisles
-- Departments
+The dataset size is **~100000**
+
+train.csv features:
+
+- Store - the store number
+- Dept - the department number
+- Date - the week
+- Weekly_Sales - sales for the given department in the given store
+- IsHoliday - whether the week is a special holiday week
+
+features.cs features:
+
+- Store - the store number
+- Date - the week
+- Temperature - the average temperature in the region
+- Fuel_Price - the cost of fuel in the region
+- MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011 and is not available for all stores all the time. Any missing value is marked with a NA.
+- CPI - the consumer price index
+- Unemployment - the unemployment rate
+- IsHoliday - whether the week is a special holiday week
 
 ## Usage
 
@@ -50,6 +66,29 @@ The dataset is anonymized and contains sample orders from Instacart users over t
 - **Machine Learning Models**: Applying algorithms like Logistic Regression, Random Forest, AdaBoost, and others for predicting product reorders.
 - **Association Rule Mining**: Using Apriori and FP-Growth algorithms to find product associations.
 - **Collaborative Filtering**: Implementing user-based and item-based collaborative filtering for product recommendations.
+
+## Results obatained for different Machine Learning models
+**Linear Regression:**
+Training dataset WMAE is 14808.15
+Validation dataset WMAE is 14834.85
+
+**Ridge Regression:**
+Training dataset WMAE is 14808.15
+Validation dataset WMAE is 14834.85
+
+**Decision Tree:**
+Training dataset WMAE is 14808.15
+Validation dataset WMAE is 1709.88
+
+**Random Forest:**
+Training dataset WMAE is 542.21
+Validation dataset WMAE is 1348.38
+
+**Extra Trees:**
+Training dataset WMAE is 609.17
+Validation dataset WMAE is 1562.77
+
+For detailed experimental results and hyper parameter tuning results refer to the report.
 
 ## Acknowledgments
 
