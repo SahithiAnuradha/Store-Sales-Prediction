@@ -69,24 +69,24 @@ features.cs features:
 
 ## Results obatained for different Machine Learning models
 **Linear Regression:**
-Training dataset WMAE is 14808.15
-Validation dataset WMAE is 14834.85
+- Training dataset WMAE is 14808.15
+- Validation dataset WMAE is 14834.85
 
 **Ridge Regression:**
-Training dataset WMAE is 14808.15
-Validation dataset WMAE is 14834.85
+- Training dataset WMAE is 14808.15
+- Validation dataset WMAE is 14834.85
 
 **Decision Tree:**
-Training dataset WMAE is 14808.15
-Validation dataset WMAE is 1709.88
+- Training dataset WMAE is 14808.15
+- Validation dataset WMAE is 1709.88
 
 **Random Forest:**
-Training dataset WMAE is 542.21
-Validation dataset WMAE is 1348.38
+- Training dataset WMAE is 542.21
+- Validation dataset WMAE is 1348.38
 
 **Extra Trees:**
-Training dataset WMAE is 609.17
-Validation dataset WMAE is 1562.77
+- Training dataset WMAE is 609.17
+- Validation dataset WMAE is 1562.77
 
 For detailed experimental results and hyper parameter tuning results refer to the report.
 
