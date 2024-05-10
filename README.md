@@ -62,10 +62,8 @@ features.cs features:
 ## Key Components
 
 - **Data Preprocessing**: Cleaning and merging dataset files for analysis.
-- **Exploratory Data Analysis (EDA)**: Analyzing order patterns, product popularity, and reorder rates.
-- **Machine Learning Models**: Applying algorithms like Logistic Regression, Random Forest, AdaBoost, and others for predicting product reorders.
-- **Association Rule Mining**: Using Apriori and FP-Growth algorithms to find product associations.
-- **Collaborative Filtering**: Implementing user-based and item-based collaborative filtering for product recommendations.
+- **Exploratory Data Analysis (EDA)**: Analyzing sales on normal days, on holidays, product popularity, and reorder rates.
+- **Machine Learning Models**: Applying algorithms like Linear Regressio, Ridge Regression, Decision Tree, Random Forest etc., on the data set.
 
 ## Results obatained for different Machine Learning models
 **Linear Regression:**
